@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>People Counter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>People entered:</h1>
+            <h2 id="count-el">0</h2>
+
+            <!-- Increment & Save buttons -->
+            <div class="button-group">
+                <button id="increment-btn" onclick="increment()">INCREMENT</button>
+                <button id="save-btn" onclick="save()">SAVE</button>
+            </div>
+        </div>
+
+        <div class="container2">
+            <!-- Print saved entries -->
+            <p id="save-el">Previous Entries: </p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
